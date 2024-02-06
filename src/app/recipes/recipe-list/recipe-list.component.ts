@@ -8,7 +8,7 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit{
   recipes: Recipe[]=[
-    new Recipe('A test recipe','This is simply a test','https://www.eatingwell.com/recipe/255186/chickpea-curry-chhole/')
+    new Recipe('A test recipe','This is simply a test','https://www.eatingwell.com/thmb/fW8uYHYMRuY0v_hmZ3xyTtmb04o=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/EWL-255186-chickpea-curry-chhole-Step-01-B-fdcdbd14ce7f4eab901582eac22a8b27.jpg')
   ];
   constructor(){
 
